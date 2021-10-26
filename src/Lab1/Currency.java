@@ -12,9 +12,7 @@ public class Currency {
         this.currencyCode = currencyCode;
         this.currencyRate = currencyRate;
     }
-    public String getName() {
-       return name;
-    }
+    public String getName() { return name; }
 
     public float getConversionFactor() {
         return conversionFactor;

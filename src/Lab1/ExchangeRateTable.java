@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ExchangeRateTable {
-    private static ExchangeRateTable instance = null;
+    public static ExchangeRateTable instance = null;
 
     private String dateOfPublication;
     private String tableNumber;
